@@ -1,0 +1,40 @@
+body {
+    background-image: url("../../images/backgrnd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+ }
+
+form {
+    width: 500px;
+    display: block;
+    background: #7d4141;
+    padding: 40px;
+    margin: 50px auto;
+}
+form > * {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 55px;
+    padding: 8px 16px;
+}
+form button {
+    border: 0;
+    margin: 0;
+    background: #ffffff;
+    box-shadow: 1px 4px 5px 0px #0000008a;
+}
+.text-message {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 10px 0 -10px!important;
+    height: initial !important;
+}
+.text-message_error {
+    color: red;
+}
+.text-message_success {
+    color: green;
+}
